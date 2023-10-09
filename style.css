@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+*{
+    font-family: Cabin;
+    padding: 0%;
+    margin: 0%;
+}
+
+#amazonlogo{
+    float: left;
+}
+
+#address, #signin, #returns, #table, #primeday{
+    display: inline-block;
+}
+
+#hellotext{
+    color: rgb(151, 151, 151);
+}
+
+table{
+    border: 0px;
+    border-color: white;
+    padding: 5px;
+    border-spacing: 0%;
+    border-collapse:collapse;
+
+}
+
+#all{
+    color: black;
+    background-color: white;
+}
+
+#search{
+    color: white;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(18,25,33);
+    color: white;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    position: sticky;
+    font-size: small;
+
+}
+
+section.secondheader{
+    background-color: rgb(36,48,64);
+    color: white;
+    font-size: small;
+    vertical-align: middle;
+    text-align: justify;
+}
+.background{
+    background-image: url("amazon-clone-boilerplate/assets/background\ picture.png");
+    
+}
+
+.search{
+    background-color: rgb(251,190,103);
+    
+}
+#textbox{
+    background-color: white;
+    width: 100px;
+}
+
+.box{
+    display: inline-block;
+}
+
+#one, #two{
+    background-color: white;
+    margin-left: 30px;
+    padding: 13px;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: -40px;
+}
+
+
+.boxmargin{
+    margin-top: 9px;
+    margin-bottom: -5px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.boxmargin1{
+    margin-bottom: -5px;
+    margin-top: -9px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#three, #four{
+    background-color: white;
+    margin-left: 30px;
+    padding: 13px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+small{
+    font-size: small;
+    color: rgb(102, 102, 102);
+}
+
+div#one > img, div#two > img{
+    height: 70px;
+}
+div#three > img{
+    height: 207px;
+}
+
+.bluetext{
+    font-weight: lighter;
+    color:rgb(108, 156, 165);
+    font-size: small;
+}
+
+button{
+    background-color: rgba(254,216,19,255);
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border-color:  rgba(254,216,19,255);
+    box-shadow: none;
+    
+}
+
+#lastimage{
+    margin-top: 10px;
+    margin-left: 20px;
+}
